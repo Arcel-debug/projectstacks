@@ -264,14 +264,54 @@
             <section id="whyus" class="bg-red text-white rounded p-5 mb-5">
                 <h1 class="text-center pt-5 mt-5"><b>WHY CHOOSE ProjectStacks?</b></h1>
                 <div class="row mt-3">
-                    <div class="col-12 col-md-6 d-flex align-items-center">
-                        <ul class="list-unstyled">
+                    <div class="col-12 col-md-6 mt-5">
+                        <div class="row mt-5">
+                            <div class="col-12 col-md-2 text-center">
+                                <i class="fas fa-database text-red fs-30"></i>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                Largest Database of Online Jobs for Filipinos
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-2 text-center">
+                                <i class="fas fa-globe-asia text-red fs-30"></i>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                Widevariety of online jobs - from fresh graduates to experienced workers
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-2 text-center">
+                                <i class="fas fa-laptop-house text-red fs-30"></i>
+                            </div>
+                            <div class="col-12 col-md-10 ">
+                                Work from Home - save time and money with no commute
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-2 text-center">
+                                <i class="fas fa-building text-red fs-30"></i>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                Our jobs come from legitimate companies from all over the world
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-2 text-center">
+                                <i class="fas fa-money-bill-wave text-red fs-30"></i>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                Get a FULL Salary - we don't take commissions, your entire salary goes to you
+                            </div>
+                        </div>
+                        {{-- <ul class="list-unstyled">
                             <li><i class="fas fa-database text-red fs-30"></i>&emsp;Largest Database of Online Jobs for Filipinos</li>
-                            <li class="mt-3"><i class="fas fa-database text-red fs-30"></i>&emsp;Widevariety of online jobs - from fresh graduates to experienced workers</li>
-                            <li class="mt-3"><i class="fas fa-database text-red fs-30"></i>&emsp;Work from Home - save time and money with no commute</li>
-                            <li class="mt-3"><i class="fas fa-database text-red fs-30"></i>&emsp;Our jobs come from legitimate companies from all over the world</li>
-                            <li class="mt-3"><i class="fas fa-database text-red fs-30"></i>&emsp;Get a FULL Salary - we don't take commissions, your entire salary goes to you</li>
-                        </ul>
+                            <li class="mt-3"><i class="fas fa-globe-asia fs-30"></i>&emsp;Widevariety of online jobs - from fresh graduates to experienced workers</li>
+                            <li class="mt-3"><i class="fas fa-laptop-house fs-30"></i>&emsp;Work from Home - save time and money with no commute</li>
+                            <li class="mt-3"><i class="fas fa-building fs-30"></i>&emsp;Our jobs come from legitimate companies from all over the world</li>
+                            <li class="mt-3"><i class="fas fa-money-bill-wave fs-30"></i>&emsp;Get a FULL Salary - we don't take commissions, your entire salary goes to you</li>
+                        </ul> --}}
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-center">
                         <img src="{{asset('default-images/macbook.png')}}" alt="" class="img-fluid">
