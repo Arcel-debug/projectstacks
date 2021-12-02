@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f3f7fa;
+}
+.ht-100 {
+    height: 100px;
+}
+.min-ht-100 {
+    min-height: 100px;
+}
+.bg-red {
+    background: #E33636;
+}
+.txt-red {
+    color: #E33636;
+}
+.border-end-red {
+    border-right: 1px solid #E33636;
+}
+.border-start-red {
+    border-left: 1px solid #E33636;
+}
+.br-20 {
+    border-radius: 20px;
+}
+.ht-50 {
+    height: 50px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-35 {
+    font-size: 35px;
+}
+.card_job:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+.badge_success {
+    border: 1px solid #339933;
+    background-color: #b3ffcc;
+    color: #339933;
+}

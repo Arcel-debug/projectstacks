@@ -25,12 +25,18 @@ class CreateUsersTable extends Migration
             $table->string('age')->nullable();
             $table->string('gender')->nullable();
             $table->text('address')->nullable();
+            $table->string('timezone')->nullable();
             $table->text('website')->nullable();
             $table->text('skill_summary')->nullable();
             $table->string('expected_salary')->nullable();
             $table->string('educational_attainment')->nullable();
             $table->string('availability')->nullable();
             $table->string('experience_overview')->nullable();
+            $table->integer('is_visible')->default('1');
+            $table->text('hours_per_week')->nullable();
+            $table->text('profile_title')->nullable();
+            $table->text('profile_description')->nullable();
+            $table->string('experience_level')->nullable();
             $table->timestamps();
         });
     }
