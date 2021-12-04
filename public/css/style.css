@@ -1,5 +1,11 @@
+:root {
+    --red: #E33636;
+    --red-light: #e44c4c;
+    --green: #4bc44b;
+    --green-light: #93da93;
+}
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: #f3f7fa;
 }
 .ht-100 {
@@ -9,16 +15,16 @@ body {
     min-height: 100px;
 }
 .bg-red {
-    background: #E33636;
+    background: var(--red);
 }
 .txt-red {
-    color: #E33636;
+    color: var(--red);
 }
 .border-end-red {
-    border-right: 1px solid #E33636;
+    border-right: 1px solid var(--red);
 }
 .border-start-red {
-    border-left: 1px solid #E33636;
+    border-left: 1px solid var(--red);
 }
 .br-20 {
     border-radius: 20px;
@@ -26,18 +32,66 @@ body {
 .ht-50 {
     height: 50px;
 }
+.job_title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.job_description {
+    font-size: 13px;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+.fs-13 {
+    font-size: 13px !important;
+}
+.fs-14 {
+    font-size: 14px !important;
+}
+.fs-15 {
+    font-size: 15px !important;
+}
 .fs-30 {
-    font-size: 30px;
+    font-size: 30px !important;
 }
 .fs-35 {
-    font-size: 35px;
+    font-size: 35px !important;
 }
 .card_job:hover {
     cursor: pointer;
     background-color: #e6e6e6;
 }
 .badge_success {
-    border: 1px solid #339933;
-    background-color: #b3ffcc;
-    color: #339933;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid var(--green-light);
+    font-size: 10px;
+    border-radius: 10px;
+    background-color: #d9fae4;
+    color: var(--green);
+}
+.form_label {
+    font-size: 13px;
+    font-weight: 600;
+}
+.floating-edit-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 50px;
+    font-size: 30px;
+    color: var(--red);
+}
+.floating-edit-icon:hover {
+    color: var(--red-light);
+}
+.ellipsis-edit-icon {
+    position: absolute;
+    top: 10px;
+    right: 0;
 }

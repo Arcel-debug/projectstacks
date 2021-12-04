@@ -36,7 +36,6 @@ class CreateUsersTable extends Migration
             $table->text('hours_per_week')->nullable();
             $table->text('profile_title')->nullable();
             $table->text('profile_description')->nullable();
-            $table->string('experience_level')->nullable();
             $table->timestamps();
         });
     }

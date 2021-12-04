@@ -1,5 +1,5 @@
 <footer class="w-100">
-    <div class="row p-5 bg-red text-light">
+    <div class="row p-5 bg-red text-light w-100">
         <div class="col-12 col-md-4">
             <h3><b>ProjectStacks</b></h3>
         </div>

@@ -20,8 +20,8 @@ Route::get('/', function () {
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //     return view('dashboard');
 // })->name('dashboard');
-
+Route::get('/jobsearch',                                        function() { return view('jobsearch'); });
 Route::middleware(['auth:sanctum', 'verified'])->group(function() {
     Route::get('/dashboard',                                        function() { return view('dashboard'); })->name('dashboard');
-    Route::get('/jobsearch',                                        function() { return view('jobsearch'); });
+    Route::get('/profile',                                          function() { return view('profile/profile'); });
 });
