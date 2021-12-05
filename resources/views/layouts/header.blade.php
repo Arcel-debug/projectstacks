@@ -17,7 +17,7 @@
                     <a class="nav-link" href="{{ url('dashboard') }}">Dashboard</a>
                 </li>
                 <li class="nav-item d-block d-md-none d-lg-none d-xl-none d-xxl-none">
-                    <a class="nav-link" href="{{url('/profile')}}">Profile</a>
+                    <a class="nav-link @if(Request::segment(1) == 'profile') active @endif" href="{{url('/profile')}}">Profile</a>
                 </li>
                 <li class="nav-item d-block d-md-none d-lg-none d-xl-none d-xxl-none">
                     <a class="nav-link" href="#whyus">Payments</a>
@@ -52,7 +52,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="{{ url('dashboard') }}">Dashboard</a></li>
-                            <li><a class="dropdown-item" href="{{url('/profile')}}">Profile</a></li>
+                            <li><a class="dropdown-item @if(Request::segment(1) == 'profile') active @endif" href="{{url('/profile')}}">Profile</a></li>
                             <li><a class="dropdown-item" href="#">Payments</a></li>
                             <li><a class="dropdown-item" href="#">Saved Jobs</a></li>
                             <li><a class="dropdown-item" href="#">Applied Jobs</a></li>

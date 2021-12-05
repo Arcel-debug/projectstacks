@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,5 +24,9 @@ Route::get('/', function () {
 Route::get('/jobsearch',                                        function() { return view('jobsearch'); });
 Route::middleware(['auth:sanctum', 'verified'])->group(function() {
     Route::get('/dashboard',                                        function() { return view('dashboard'); })->name('dashboard');
-    Route::get('/profile',                                          function() { return view('profile/profile'); });
+
+    // PROFILE CONTROLLER
+    Route::get('/profile',                                          [ProfileController::class, 'index']);
+    Route::get('/profile/edit_content_one_frm',                     [ProfileController::class, 'edit_content_one_frm']);
+    Route::get('/profile/edit_content_two_frm',                     [ProfileController::class, 'edit_content_two_frm']);
 });
